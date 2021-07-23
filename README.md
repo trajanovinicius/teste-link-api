@@ -15,3 +15,16 @@
 ● Legibilidade 
 ● Boas práticas de desenvolvimento de API RESTful 
 ● Performance
+
+> Endpoints 
+>
+## GET - api/v1/oportunity = Lista todas as oportunidades salvas no banco
+
+## POST - api/v1/oportunity = Busca as oportunidades na api do pipedrive, e logo após, salva as mesmas no banco com valor, data e id.
+
+> Tecnologias e ferramentas
+> MongoDB
+> Express
+> Mongoose
+> dotenv
+> require-dir
